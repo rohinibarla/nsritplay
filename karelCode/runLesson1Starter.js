@@ -2,8 +2,8 @@
 //Karel execute four
 //commands in a row
 function main() {
-move();
-putBeeper();
-move();
-move();
+ముందుకు_పదా();
+బంతి_పెట్టు();
+ముందుకు_పదా();
+ముందుకు_పదా();
 }

@@ -12,8 +12,26 @@ function KarelCompiler(karel) {
    var that = {};
    that.vm = new KarelVM(karel);
 
+   that.telugu2js = function(text){
+      const regex_move = /ముందుకు_పదా/gm;
+      const subst_move = `move`;
+      
+      text = text.replace(regex_move, subst_move);
+
+      const regex_putBeeper = /బంతి_పెట్టు/gm;
+      const subst_putBeeper = `putBeeper`;
+      
+      text = text.replace(regex_putBeeper, subst_putBeeper);
+
+      return text;
+   }
+
    that.compile = function(text) {
       var parser = new KarelParser();
+      
+      // convert to JS
+      text = that.telugu2js(text);
+
       parser.setInput(text);
       var functions = [];
       var functionNames = [];
