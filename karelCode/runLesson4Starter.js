@@ -3,6 +3,6 @@
 //to the top of the
 //ledge
 function main(){
-turnLeft();
-move();
+ఎడమవైపు_తిరుగు();
+ముందుకు_పదా();
 }

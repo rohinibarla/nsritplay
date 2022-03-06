@@ -4,7 +4,7 @@
 //corner of the first
 //row
 function main(){
-putBeeper();
-move();
-putBeeper();
+బంతి_పెట్టు();
+ముందుకు_పదా();
+బంతి_పెట్టు();
 }

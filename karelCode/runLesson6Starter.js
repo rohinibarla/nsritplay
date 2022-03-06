@@ -2,7 +2,7 @@
 //so that Karel picks
 //up all three beepers
 function main() {
-move();
-pickBeeper();
-move();
+ముందుకు_పదా();
+బంతి_తిసుకో();
+ముందుకు_పదా();
 }

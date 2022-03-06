@@ -2,18 +2,18 @@
 //Karel place a square
 //of beepers
 function main(){
-putBeeper();
-move();
-turnLeft();
-putBeeper();
-move();
-turnLeft();
-putBeeper();
-move();
-turnLeft();
-putBeeper();
-move();
-turnLeft();
-move();
-move();
+బంతి_పెట్టు();
+ముందుకు_పదా();
+ఎడమవైపు_తిరుగు();
+బంతి_పెట్టు();
+ముందుకు_పదా();
+ఎడమవైపు_తిరుగు();
+బంతి_పెట్టు();
+ముందుకు_పదా();
+ఎడమవైపు_తిరుగు();
+బంతి_పెట్టు();
+ముందుకు_పదా();
+ఎడమవైపు_తిరుగు();
+ముందుకు_పదా();
+ముందుకు_పదా();
 }

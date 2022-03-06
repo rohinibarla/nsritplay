@@ -23,6 +23,17 @@ function KarelCompiler(karel) {
       
       text = text.replace(regex_putBeeper, subst_putBeeper);
 
+
+      const regex_turnLeft = /ఎడమవైపు_తిరుగు/gm;
+      const subst_turnLeft = `turnLeft`;
+      
+      text = text.replace(regex_turnLeft, subst_turnLeft);
+
+      const regex_pickBeeper = /బంతి_తిసుకో/gm;
+      const subst_pickBeeper = `pickBeeper`;
+      
+      text = text.replace(regex_pickBeeper, subst_pickBeeper);
+
       return text;
    }
 

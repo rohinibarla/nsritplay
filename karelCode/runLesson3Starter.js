@@ -2,6 +2,6 @@
 //so that Karel moves
 //three steps
 function main(){
-move();
-move();
+ముందుకు_పదా();
+ముందుకు_పదా();
 }
