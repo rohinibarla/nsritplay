@@ -5,10 +5,10 @@ function KarelImages() {
 
 	var images = new Array();
 	var imageNames = new Array();
-	imageNames[0] = "karelNorth.png";
-	imageNames[1] = "karelSouth.png";
-	imageNames[2] = "karelEast.png";
-	imageNames[3] = "karelWest.png";
+	imageNames[0] = "karel_north.png";
+	imageNames[1] = "karel_south.png";
+	imageNames[2] = "karel_east.png";
+	imageNames[3] = "karel_west.png";
 	imageNames[4] = "cross.png";
 	imageNames[5] = "beeper.jpg";
 	imageNames[6] = "karelNorthSmall.png";

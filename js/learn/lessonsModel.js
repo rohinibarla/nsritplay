@@ -624,10 +624,10 @@ function ButtonLesson(buttonMap, world, solution, finishedCallback) {
    actionMap.pickBeeper = AddEqualCheck(ide, staticKarel.getIde(), ide.stepPickBeeper, finishedCallback);
    
    var textMap = {};
-   textMap.move = '<b>move();</b>';
-   textMap.turnLeft = '<b>turnLeft();</b>';
-   textMap.putBeeper = '<b>putBeeper();</b>';
-   textMap.pickBeeper = '<b>pickBeeper();</b>';
+   textMap.move = '<b>ముందుకు_పదా();</b>';
+   textMap.turnLeft = '<b>ఎడమవైపు_తిరుగు();</b>';
+   textMap.putBeeper = '<b>బంతి_పెట్టు();</b>';
+   textMap.pickBeeper = '<b>బంతి_తిసుకో();</b>';
    
    var buttonDim = [];
    buttonDim.push({left:0.185, top:0.65, width:0.3, height:0.12});
@@ -819,10 +819,10 @@ function Unit1Lesson2(finishedCallback) {
       './images/wall.png',
    ];
    var labels = [
-      'Karel',
-      'Beeper',
-      'World',
-      'Wall'
+      'చిట్టి',
+      'బంతి',
+      'ప్రపంచం',
+      'గోడ'
    ];
    return PictureLesson(buttonSrcs, labels, finishedCallback, false);
 }
@@ -835,10 +835,10 @@ function Unit1Lesson1(finishedCallback) {
       './images/wall.png',
    ];
    var labels = [
-      'Karel',
-      'Beeper',
-      'World',
-      'Wall'
+      'చిట్టి',
+      'బంతి',
+      'ప్రపంచం',
+      'గోడ'
    ];
    return PictureDemo(buttonSrcs, labels, finishedCallback, true);
 }

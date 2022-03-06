@@ -144,18 +144,18 @@ function importScripts(list) {
 
 function importJsLibraries() {
    var scripts = [
-      '<script src="./lib/jquery.js"></script>',
-      '<script src="./lib/browser_detect.js"></script>',
-      '<script src="./lib/util.js"></script>',
-      '<script src="./lib/tabs.js"></script>',
-      '<script src="./codeMirror/js/codemirror.js"></script>',
-      '<script src="./ace/ace-uncompressed.js"></script>',
-      '<script src="./ace/theme-jeremys.js"></script>',
-      '<script src="./ace/mode-javascript.js"></script>',
-      '<script src="./lib/curvycorners.js"></script>',
-	  '<script src="./lib/jquery.js"></script>',
-      //'<script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>',
-      '<script src="./boxy/jquery.boxy.js"></script>',
+      '<script src="./lib/jquery.js" charset="utf-8"></script>',
+      '<script src="./lib/browser_detect.js" charset="utf-8"></script>',
+      '<script src="./lib/util.js" charset="utf-8"></script>',
+      '<script src="./lib/tabs.js" charset="utf-8"></script>',
+      '<script src="./codeMirror/js/codemirror.js" charset="utf-8"></script>',
+      '<script src="./ace/ace-uncompressed.js" charset="utf-8"></script>',
+      '<script src="./ace/theme-jeremys.js" charset="utf-8"></script>',
+      '<script src="./ace/mode-javascript.js" charset="utf-8"></script>',
+      '<script src="./lib/curvycorners.js" charset="utf-8"></script>',
+	  '<script src="./lib/jquery.js" charset="utf-8"></script>',
+      //'<script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js" charset="utf-8"></script>',
+      '<script src="./boxy/jquery.boxy.js" charset="utf-8"></script>',
    ]
    importScripts(scripts);
 }
@@ -163,22 +163,22 @@ function importJsLibraries() {
 
 function importKarelIde() {
    var scripts = [
-		'<script src="./js/ide/karelImages.js"></script>',
-		'<script src="./js/ide/karelSingleton.js"></script>',
-		'<script src="./js/ide/karelConstants.js"></script>',
-		'<script src="./js/ide/action.js"></script>',
-		'<script src="./js/ide/beepers.js"></script>',
-		'<script src="./js/ide/walls.js"></script>',
-		'<script src="./js/ide/squareColors.js"></script>',
-		'<script src="./js/ide/canvasModel.js"></script>',
-		'<script src="./js/ide/karelModel.js"></script>',
-		'<script src="./js/ide/karelView.js"></script>',
-		'<script src="./js/ide/karel.js"></script>',
-		'<script src="./js/ide/karelCompiledEngine.js"></script>',
-		'<script src="./js/ide/karelEvalEngine.js"></script>',
-		'<script src="./js/ide/karelIde.js"></script>',
-		'<script src="./js/html/starterCode.js"></script>',
-		'<!--<script src="./js/ide/mainIdeController.js"></script>-->',
+		'<script src="./js/ide/karelImages.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelSingleton.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelConstants.js" charset="utf-8"></script>',
+		'<script src="./js/ide/action.js" charset="utf-8"></script>',
+		'<script src="./js/ide/beepers.js" charset="utf-8"></script>',
+		'<script src="./js/ide/walls.js" charset="utf-8"></script>',
+		'<script src="./js/ide/squareColors.js" charset="utf-8"></script>',
+		'<script src="./js/ide/canvasModel.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelModel.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelView.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karel.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelCompiledEngine.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelEvalEngine.js" charset="utf-8"></script>',
+		'<script src="./js/ide/karelIde.js" charset="utf-8"></script>',
+		'<script src="./js/html/starterCode.js" charset="utf-8"></script>',
+		'<!--<script src="./js/ide/mainIdeController.js" charset="utf-8"></script>-->',
 	]
 	importScripts(scripts);
 		
@@ -186,14 +186,14 @@ function importKarelIde() {
 
 function importCompiler() {
    var scripts = [ 
-      '<script src="js/compiler/karelCompiler.js"></script>',
-      '<script src="js/compiler/scanner/TokenScanner.js"></script>',
-      '<script src="js/compiler/parser/Parser.js"></script>',
-      '<script src="js/compiler/parser/XParser.js"></script>',
-      '<script src="js/compiler/vm/VM.js"></script>',
-      '<script src="js/compiler/vm/XVM.js"></script>',
-      '<script src="js/compiler/karel/KarelParser.js"></script>',
-      '<script src="js/compiler/karel/KarelVM.js"></script>'
+      '<script src="js/compiler/karelCompiler.js" charset="utf-8"></script>',
+      '<script src="js/compiler/scanner/TokenScanner.js" charset="utf-8"></script>',
+      '<script src="js/compiler/parser/Parser.js" charset="utf-8"></script>',
+      '<script src="js/compiler/parser/XParser.js" charset="utf-8"></script>',
+      '<script src="js/compiler/vm/VM.js" charset="utf-8"></script>',
+      '<script src="js/compiler/vm/XVM.js" charset="utf-8"></script>',
+      '<script src="js/compiler/karel/KarelParser.js" charset="utf-8"></script>',
+      '<script src="js/compiler/karel/KarelVM.js" charset="utf-8"></script>'
    ]
    importScripts(scripts);	
 }
@@ -201,49 +201,49 @@ function importCompiler() {
 function importLearnEngine() {
    var scripts = [
 
-		'<script src="./js/learn/makeAbsoluteDiv.js"></script>',
-		'<script src="./js/learn/unitProgress.js"></script>',
-		'<script src="./js/learn/progressModel.js"></script>',
-		'<script src="./js/learn/lessonsModel.js"></script>',
-		'<script src="./js/learn/homeScreen.js"></script>',
-		'<script src="./js/learn/textElement.js"></script>',
-		'<script src="./js/learn/textButton.js"></script>',
-		'<script src="./js/learn/unitBox.js"></script>',
-		'<script src="./js/learn/imageElement.js"></script>',
-		'<script src="./js/learn/unitTestElement.js"></script>',
-		'<script src="./js/learn/textBox.js"></script>',
-		'<script src="./js/learn/videoElement.js"></script>',
-		'<script src="./js/learn/karelCommandButton.js"></script>',
-		'<script src="./js/learn/karelEditorElement.js"></script>',
-		'<script src="./js/learn/karelStaticCanvasElement.js"></script>',
-		'<script src="./js/learn/karelCanvasElement.js"></script>',
-		'<script src="./js/learn/karelIdeMessage.js"></script>',
-		'<script src="./js/learn/karelIdeButtons.js"></script>',
-		'<script src="./js/learn/karelIdeElement.js"></script>',
-		'<script src="./js/learn/programElement.js"></script>',
-		'<script src="./js/learn/imageButton.js"></script>',
-		'<script src="./js/learn/content.js"></script>',
-		'<script src="./js/learn/centerArea.js"></script>',
-		'<script src="./js/learn/titleElement.js"></script>',
-		'<script src="./js/learn/header.js"></script>',
-		'<script src="./js/learn/progressBox.js"></script>',
-		'<script src="./js/learn/progressBar.js"></script>',
-		'<script src="./js/learn/karelLearnEngine.js"></script>',
+		'<script src="./js/learn/makeAbsoluteDiv.js" charset="utf-8"></script>',
+		'<script src="./js/learn/unitProgress.js" charset="utf-8"></script>',
+		'<script src="./js/learn/progressModel.js" charset="utf-8"></script>',
+		'<script src="./js/learn/lessonsModel.js" charset="utf-8"></script>',
+		'<script src="./js/learn/homeScreen.js" charset="utf-8"></script>',
+		'<script src="./js/learn/textElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/textButton.js" charset="utf-8"></script>',
+		'<script src="./js/learn/unitBox.js" charset="utf-8"></script>',
+		'<script src="./js/learn/imageElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/unitTestElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/textBox.js" charset="utf-8"></script>',
+		'<script src="./js/learn/videoElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelCommandButton.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelEditorElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelStaticCanvasElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelCanvasElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelIdeMessage.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelIdeButtons.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelIdeElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/programElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/imageButton.js" charset="utf-8"></script>',
+		'<script src="./js/learn/content.js" charset="utf-8"></script>',
+		'<script src="./js/learn/centerArea.js" charset="utf-8"></script>',
+		'<script src="./js/learn/titleElement.js" charset="utf-8"></script>',
+		'<script src="./js/learn/header.js" charset="utf-8"></script>',
+		'<script src="./js/learn/progressBox.js" charset="utf-8"></script>',
+		'<script src="./js/learn/progressBar.js" charset="utf-8"></script>',
+		'<script src="./js/learn/karelLearnEngine.js" charset="utf-8"></script>',
 	]
 	importScripts(scripts);	
 }
 
 function importController() {
    var scripts = [
-		'<script src="./js/server/server.js"></script>',
+		'<script src="./js/server/server.js" charset="utf-8"></script>',
 	]
 	importScripts(scripts);
 }
 
 function importReference() {
    var scripts = [
-		'<script src="./js/dialog/referenceDialog.js"></script>',
-		'<script src="./js/dialog/deployDialog.js"></script>',
+		'<script src="./js/dialog/referenceDialog.js" charset="utf-8"></script>',
+		'<script src="./js/dialog/deployDialog.js" charset="utf-8"></script>',
 	]
 	importScripts(scripts);	
 }
