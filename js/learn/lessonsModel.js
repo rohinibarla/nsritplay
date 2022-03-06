@@ -518,6 +518,15 @@ function Unit3Lesson1(finishedCallback) {
    var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
    return that;   
 }
+function Unit2Lesson9(finishedCallback) {
+   var buttons = {
+       move : true,
+	   turnLeft : true,
+	   putBeeper : true,
+	   pickBeeper : true
+   };
+   return ButtonLesson(buttons, 'ledgeLarge', 'karelCode/unit1Lesson5LargeSoln.js', finishedCallback);
+}
 
 function Unit2Lesson8(finishedCallback) {
    var buttons = {
